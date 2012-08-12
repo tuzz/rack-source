@@ -19,9 +19,9 @@ run Rack::Source.new(__FILE__, :lexer => :ruby)
 
 All parameters are passed through to [Pygments](https://github.com/tmm1/pygments.rb), so look there for additional options and supported lexers.
 
-# Ruby 1.9+
+## Ruby 1.9+
 
-At the time of writing, there is a problem with Pygments causing a segfault. Running a [thin server](http://code.macournoyer.com/thin/) resolves this issue.
+If you're using a newer version of Ruby, you'll need to run a [thin](http://code.macournoyer.com/thin/) server instead. There is an [issue](https://github.com/tmm1/pygments.rb/issues/25) with [Pygments](https://github.com/tmm1/pygments.rb).
 
 # Contribution
 
