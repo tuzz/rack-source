@@ -1,8 +1,8 @@
-# Rack Source
+## Rack Source
 
 Serves a file with syntax highlighting.
 
-# Usage
+## Usage
 
 ```ruby
 # config.ru
@@ -23,7 +23,7 @@ All parameters are passed through to [Pygments](https://github.com/tmm1/pygments
 
 If you're using a newer version of Ruby, you'll need to run a [thin](http://code.macournoyer.com/thin/) server instead. There is an [issue](https://github.com/tmm1/pygments.rb/issues/25) with [Pygments](https://github.com/tmm1/pygments.rb).
 
-# Contribution
+## Contribution
 
 Feel free. No pull request is too small.
 
